@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="255dp"
+        android:layout_x="6dp"
+        android:layout_y="28dp"
+        app:srcCompat="@drawable/light"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="296dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/tv_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="227dp"
+        android:layout_y="340dp"
+        android:text="27"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:id="@+id/tv_title8"
+        android:layout_width="17dp"
+        android:layout_height="wrap_content"
+        android:layout_x="261dp"
+        android:layout_y="340dp"
+        android:text=":"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <TextView
+        android:id="@+id/tv_title6"
+        android:layout_width="17dp"
+        android:layout_height="wrap_content"
+        android:layout_x="168dp"
+        android:layout_y="340dp"
+        android:text="/"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="340dp"
+        android:text="27"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <TextView
+        android:id="@+id/tv_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="279dp"
+        android:layout_y="340dp"
+        android:text="27"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/tv_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="340dp"
+        android:text="12"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="341dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    android:background="@drawable/flower"
+    android:fitsSystemWindows="true"
+    tools:context=".gym">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/equipmentbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="107dp"
+            android:layout_y="304dp"
+            android:text="無器材"
+            android:textColor="@android:color/white"
+            android:textSize="70sp"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="537dp" />
+
+        <TextView
+            android:id="@+id/fundamentalbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="79dp"
+            android:layout_y="127dp"
+            android:text="基本器材"
+            android:textColor="@android:color/white"
+            android:textSize="70sp"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="537dp" />
+
+        <TextView
+            android:id="@+id/qrcodebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="92dp"
+            android:layout_y="480dp"
+            android:text="QRcode"
+            android:textColor="@android:color/white"
+            android:textSize="70sp"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="537dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="310dp"
+            android:layout_y="658dp"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+            tools:layout_editor_absoluteX="255dp"
+            tools:layout_editor_absoluteY="641dp" />
+
+        <ImageButton
+            android:id="@+id/reservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="297dp"
+            android:layout_y="5dp"
+            app:srcCompat="@android:drawable/ic_menu_today"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_x="358dp"
+            android:layout_y="5dp"
+            app:srcCompat="@drawable/ic_center_focus_strong_black_24dp"
+            tools:layout_editor_absoluteX="335dp"
+            tools:layout_editor_absoluteY="14dp"
+            tools:ignore="VectorDrawableCompat" />
+
+    </AbsoluteLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawermenu">
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

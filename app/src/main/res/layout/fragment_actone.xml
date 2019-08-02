@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="668dp"
+        android:layout_marginTop="60dp">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_x="14dp"
+                android:layout_y="295dp"
+                android:text="光一肆號"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_x="16dp"
+                android:layout_y="586dp"
+                android:text="愛運動健身中心 "
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="383dp"
+                android:layout_height="285dp"
+                android:layout_x="17dp"
+                android:layout_y="-4dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/light"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="305dp"
+                android:layout_y="286dp"
+                android:text="揪團去"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="254dp"
+                tools:layout_editor_absoluteY="298dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="256dp"
+                android:layout_y="588dp"
+                android:text="揪團去"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="254dp"
+                tools:layout_editor_absoluteY="298dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="54dp"
+                android:layout_y="366dp"
+                app:srcCompat="@drawable/lovesport"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="463dp" />
+
+        </AbsoluteLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

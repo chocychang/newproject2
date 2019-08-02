@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pay">
+
+    <ListView
+        android:id="@+id/LV1"
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        android:layout_x="-2dp"
+        android:layout_y="-1dp"
+        android:background="@drawable/flower"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="448dp"
+        android:text="運送方式"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="506dp"
+        android:text="選擇賣場"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <Button
+        android:id="@+id/payy"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_x="152dp"
+        android:layout_y="644dp"
+        android:text="結帳"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="449dp"
+        android:text="自取"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="290dp"
+        android:layout_y="449dp"
+        android:text="宅配"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="198dp"
+        android:layout_height="41dp"
+        android:layout_x="177dp"
+        android:layout_y="507dp"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="511dp" />
+</AbsoluteLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:background="@drawable/flower"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="278dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="486dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="382dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="70dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="174dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/abdobutton"
+        android:layout_width="315dp"
+        android:layout_height="91dp"
+        android:layout_x="98dp"
+        android:layout_y="278dp"
+        android:background="#00000000"
+        android:textColor="@android:color/white"
+        android:text="強健核心 &#10;中級-基本器材-肌力"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/legtwobutton"
+        android:layout_width="315dp"
+        android:layout_height="91dp"
+        android:layout_x="98dp"
+        android:layout_y="383dp"
+        android:background="#00000000"
+        android:textColor="@android:color/white"
+        android:text="腿部訓練 &#10;中級-基本器材-肌力"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/backtwobutton"
+        android:layout_width="315dp"
+        android:layout_height="91dp"
+        android:layout_x="98dp"
+        android:layout_y="66dp"
+        android:background="#00000000"
+        android:textColor="@android:color/white"
+        android:text="背部訓練 &#10;入門-基本器材-耐力"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/armbutton"
+        android:layout_width="315dp"
+        android:layout_height="91dp"
+        android:layout_x="98dp"
+        android:layout_y="173dp"
+        android:background="#00000000"
+        android:textColor="@android:color/white"
+        android:text="手臂訓練 &#10;入門-基本器材-耐力"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/shoulderbutton"
+        android:layout_width="315dp"
+        android:layout_height="91dp"
+        android:layout_x="98dp"
+        android:layout_y="488dp"
+        android:background="#00000000"
+
+        android:text="強肩運動&#10;進階-基本器材-肌力"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/chatbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="336dp"
+        android:layout_y="653dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="599dp" />
+
+</AbsoluteLayout>

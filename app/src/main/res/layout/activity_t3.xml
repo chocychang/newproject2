@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_x="330dp"
+        android:layout_y="650dp"
+        android:baselineAligned="false"
+        android:clickable="true"
+        app:srcCompat="@drawable/image" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_x="330dp"
+        android:layout_y="150dp"
+        android:baselineAligned="false"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@android:drawable/presence_video_online" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_x="330dp"
+        android:layout_y="80dp"
+        android:baselineAligned="false"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="40dp"
+        android:layout_y="80dp"
+        android:text="食材"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="40dp"
+        android:layout_y="390dp"
+        android:text="調味"
+        android:textSize="40dp" />
+
+    <CheckBox
+        android:id="@+id/i1"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_x="120dp"
+        android:layout_y="150dp"
+        android:scaleX="2.0"
+        android:scaleY="2.0"
+        android:text="豆腐 1 盒" />
+
+    <CheckBox
+        android:id="@+id/i2"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_x="120dp"
+        android:layout_y="210dp"
+        android:scaleX="2.0"
+        android:scaleY="2.0"
+        android:text="辣椒 1 根" />
+
+    <CheckBox
+        android:id="@+id/i3"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_x="120dp"
+        android:layout_y="270dp"
+        android:scaleX="2.0"
+        android:scaleY="2.0"
+        android:text="蔥花 適量" />
+
+    <CheckBox
+        android:id="@+id/i4"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_x="120dp"
+        android:layout_y="330dp"
+        android:scaleX="2.0"
+        android:scaleY="2.0"
+        android:text="豬絞肉 100 克" />
+
+    <CheckBox
+        android:id="@+id/i6"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_x="120dp"
+        android:layout_y="460dp"
+        android:scaleX="2.0"
+        android:scaleY="2.0"
+        android:text="鹽巴 1/2 茶匙" />
+
+    <CheckBox
+        android:id="@+id/i7"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_x="120dp"
+        android:layout_y="520dp"
+        android:scaleX="2.0"
+        android:scaleY="2.0"
+        android:text="砂糖 1/4 茶匙" />
+
+    <CheckBox
+        android:id="@+id/i8"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_x="120dp"
+        android:layout_y="580dp"
+        android:scaleX="2.0"
+        android:scaleY="2.0"
+        android:text="米酒 1/4 茶匙" />
+
+
+</AbsoluteLayout>

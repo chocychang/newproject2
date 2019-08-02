@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newproject">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 存取網路權限 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 裝置不進入睡眠權限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+        <activity android:name=".menu" />
+        <activity android:name=".n0" />
+        <activity android:name=".TimeUpActivity" />
+        <activity android:name=".join" />
+        <activity android:name=".lovesport" />
+        <activity android:name=".achievement" />
+        <activity android:name=".myact" />
+        <activity android:name=".bigreeny" />
+        <activity android:name=".invite" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".payyyyyyy" />
+        <activity android:name=".pay" />
+        <activity android:name=".reservation" />
+        <activity
+            android:name=".maps"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".runmachine" />
+        <activity android:name=".clock" />
+        <activity android:name=".chat" />
+        <activity android:name=".abdomen" />
+        <activity android:name=".gym" />
+        <activity android:name=".fund" />
+        <activity android:name=".list" />
+        <activity android:name=".vt4" />
+        <activity android:name=".vt3" />
+        <activity android:name=".vt2" />
+        <activity android:name=".vt1" />
+        <activity android:name=".t4" />
+        <activity android:name=".t3" />
+        <activity android:name=".t2" />
+        <activity android:name=".t1" />
+        <activity android:name=".tofu"
+               android:largeHeap="true"/>
+        <activity android:name=".go" />
+        <activity android:name=".diy" />
+        <activity android:name=".food" />
+
+        <service android:name=".MyFirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".bottom_navigation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

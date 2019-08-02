@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    android:background="@drawable/silver"
+    android:fitsSystemWindows="true"
+    tools:context=".clock">
+
+    <LinearLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="9" />
+
+        <TextView
+            android:id="@+id/progress_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:text="0%" />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/bar_layout"
+        android:layout_marginTop="20dp"
+        android:background="#ffaa" />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="350dp"
+        android:text="time"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/show_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="timePickerBtn"
+        android:text="picker" />
+
+    <Button
+        android:onClick="canelTimeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_picker"
+        android:layout_centerHorizontal="true"
+        android:text="取消時間" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#00000000" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:background="#00000000"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="163dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bigreeny">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="166dp"
+        android:layout_x="32dp"
+        android:layout_y="24dp"
+        android:text="光一肆號"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="89dp"
+        android:layout_y="97dp"
+        android:text="02 2362 2211"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="21dp"
+        android:layout_x="85dp"
+        android:layout_y="160dp"
+        android:text="台北市大安區新生南路三段76巷2號"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="11dp"
+        android:layout_x="91dp"
+        android:layout_y="209dp"
+        android:text="星期一~五 10:00-22:00\n星期六日 09:00-22:00"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="64dp"
+        android:layout_x="35dp"
+        android:layout_y="281dp"
+        android:text="聚會名稱"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="227dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="29dp"
+        android:layout_x="147dp"
+        android:layout_y="275dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="32dp"
+        android:layout_x="35dp"
+        android:layout_y="340dp"
+        android:text="付款方式"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="29dp"
+        android:layout_x="36dp"
+        android:layout_y="407dp"
+        android:text="揪團人數"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="31dp"
+        android:layout_x="35dp"
+        android:layout_y="470dp"
+        android:text="舉辦時間"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        android:layout_x="216dp"
+        android:layout_y="403dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/plus2"
+        app:layout_constraintStart_toEndOf="@+id/minus2"
+        app:layout_constraintTop_toBottomOf="@+id/pay" />
+
+    <ImageButton
+        android:id="@+id/plus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="10dp"
+        android:layout_x="296dp"
+        android:layout_y="402dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView39"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/num"
+        app:layout_constraintTop_toBottomOf="@+id/minus"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/pay"
+        android:layout_width="107dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_x="214dp"
+        android:layout_y="335dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/minus"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/minus2"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="154dp"
+        android:layout_y="404dp"
+        android:text="一"
+        app:layout_constraintStart_toEndOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/minus" />
+
+    <EditText
+        android:id="@+id/month"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:layout_x="159dp"
+        android:layout_y="467dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/minus2" />
+
+    <EditText
+        android:id="@+id/hour"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="21dp"
+        android:layout_x="162dp"
+        android:layout_y="529dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/plus2" />
+
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="21dp"
+        android:layout_x="250dp"
+        android:layout_y="467dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/textView37"
+        app:layout_constraintTop_toBottomOf="@+id/num" />
+
+    <EditText
+        android:id="@+id/minute"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="7dp"
+        android:layout_x="250dp"
+        android:layout_y="529dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="208dp"
+        android:layout_y="470dp"
+        android:text="月"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/month"
+        app:layout_constraintTop_toBottomOf="@+id/minus2" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="29dp"
+        android:layout_x="300dp"
+        android:layout_y="470dp"
+        android:text="日"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/day"
+        app:layout_constraintTop_toBottomOf="@+id/num" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="151dp"
+        android:layout_x="218dp"
+        android:layout_y="525dp"
+        android:text=":"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/send"
+        app:layout_constraintEnd_toStartOf="@+id/minute" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="6dp"
+        android:layout_x="0dp"
+        android:layout_y="669dp"
+        android:text="送出"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="33dp"
+        android:layout_y="85dp"
+        app:srcCompat="@android:drawable/sym_action_call"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="34dp"
+        android:layout_y="150dp"
+        app:srcCompat="@drawable/ic_home_black_24dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="84dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="35dp"
+        android:layout_y="212dp"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <ImageView
+        android:id="@+id/minus"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_x="159dp"
+        android:layout_y="337dp"
+        app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="267dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_x="336dp"
+        android:layout_y="337dp"
+        app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="229dp"
+        tools:ignore="VectorDrawableCompat" />
+
+
+</AbsoluteLayout>

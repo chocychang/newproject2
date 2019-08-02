@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="80dp"
+        android:text="豆腐"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/list2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="200dp"
+        android:text="優格"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/list3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="320dp"
+        android:text="義大利麵"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/list4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="440dp"
+        android:text="咖哩塊"
+        android:textSize="40dp"/>
+
+    <include layout="@layout/toolbar"/>
+
+</AbsoluteLayout>

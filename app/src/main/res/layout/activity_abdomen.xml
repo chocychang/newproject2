@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/silver"
+    tools:context=".abdomen">
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout"
+        android:layout_width="412dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/timer"
+        tools:ignore="MissingConstraints">
+
+        <VideoView
+            android:id="@+id/myVideo"
+            android:layout_width="fill_parent"
+            android:layout_height="232dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_x="0dp"
+            android:layout_y="0dp" />
+    </AbsoluteLayout>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="106dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="96dp"
+        android:text="00:00"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toStartOf="@+id/startbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/startbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toEndOf="@+id/timer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/pausebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toEndOf="@+id/startbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_media_pause" />
+
+    <ImageButton
+        android:id="@+id/stopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="189dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="33dp"
+        android:text="蜘蛛人棒式\n將膝蓋帶到手肘"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/absoluteLayout" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="215dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="53dp"
+        android:text="仰臥挺髖\n將腳抬起，接著向前伸出"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginEnd="112dp"
+        android:text="側面捲腹\n側躺並持續抱頭坐起"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginEnd="28dp"
+        android:text="旋轉側棒式\n側身撐起並將另一隻手穿過身體"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="236dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="52dp"
+        android:text="全仰臥起坐\n腳伸直並槍身體帶起手摸腳趾"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="55dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="33dp"
+        android:text="1:00"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/absoluteLayout" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="55dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="11dp"
+        android:text="1:00"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="55dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="43dp"
+        android:text="1:00"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="55dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="41dp"
+        android:text="1:00"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="55dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="41dp"
+        android:text="1:00"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+</android.support.constraint.ConstraintLayout>

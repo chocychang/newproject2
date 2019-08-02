@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/silver"
+    tools:context=".runmachine">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="265dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="73dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/twoy" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="37dp"
+        android:text="目標肌群：鍛鍊腿部、臀部、側腰以及小腹的主要肌群"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="324dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        android:text="1.找到運動節奏\n雙手輕輕握住橢圓機上方的扶手，然後手要隨著腳的節奏依次向前登踩，等運動節奏找到了，再慢慢加大手的推力和腳的登力。"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="344dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="27dp"
+        android:text="2.身體姿勢\n注意在使用的時候的身體姿勢，抬頭挺胸，不要低頭練習，眼睛注視正前方，把全身的注意力放在腿部。"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="364dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="2dp"
+        android:text="3.分組練習最好\n練習的時候最好是分組進行，可以有兩種方法，一種是按時間分組，一組5-6分鐘，也可以是按次數，這個可以按照自己的身體承受能力定次數，我個人習慣一組100次登踩。休息1分鐘再100次，在使用橢圓機鍛鍊的時候，頻率和速度是逐漸加快的，而且一定是要在自己能夠適應的範圍內加快。"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+</android.support.constraint.ConstraintLayout>

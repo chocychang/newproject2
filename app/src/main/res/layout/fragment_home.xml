@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="568dp"
+        android:text="00:00"
+        android:textColor="@android:color/white"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="319dp"></TextView>
+
+    <ImageButton
+        android:id="@+id/frien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="84dp"
+        android:layout_y="19dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/friend2"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <ImageButton
+        android:id="@+id/eat"
+        android:layout_width="210dp"
+        android:layout_height="197dp"
+        android:layout_x="-4dp"
+        android:layout_y="238dp"
+        app:srcCompat="@drawable/eatting"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <ImageButton
+        android:id="@+id/exercise"
+        android:layout_width="198dp"
+        android:layout_height="190dp"
+        android:layout_x="206dp"
+        android:layout_y="243dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/sneaker" />
+
+
+</AbsoluteLayout>
